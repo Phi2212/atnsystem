@@ -1,9 +1,9 @@
 <?php
 
-define('DB_SERVER', 'ec2-184-73-209-230.compute-1.amazonaws.com');
-define('DB_USERNAME', 'mtycxjjccxmeee');
-define('DB_PASSWORD', 'f0dd25aaa62a3a7a83d3934915c681f6ddfac747814e5a3668945ea34017c6ce');
-define('DB_NAME', 'd35915da8p1v65');
+define('DB_SERVER', 'ec2-34-200-72-77.compute-1.amazonaws.com');
+define('DB_USERNAME', 'cdolvdoxpdpipq');
+define('DB_PASSWORD', 'e594ed54edab33222eca584779d4a935ce8af9cdf66d0fee50fa1303d9c0fa92');
+define('DB_NAME', 'd1rgct5of5gcog');
  
 /* Attempt to connect to PostgreSQL database */
 $link = pg_connect("host=".DB_SERVER." dbname=". DB_NAME ." user=" . DB_USERNAME . " password=" .DB_PASSWORD. "")
